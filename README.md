@@ -13,7 +13,8 @@
 - **Gatekeeper/OPA**: Kubernetes policy enforcement
 
 
-## 🧠 Reflektion (5-10 meningar)
+
+## Reflektion
 
 **Container-säkerhet:** Lärde mig att minimera attackytan är kritiskt. Non-root user hindrar privilege escalation, slim-baser (python:3.12-slim) har färre sårbarheter än fulla images, och att patcha Flask 1.0.0→3.0.0 eliminerar kritiska CVEs. Trivy kvantifierar risker konkret - 1492→116 CVEs är dramatisk förbättring!
 
