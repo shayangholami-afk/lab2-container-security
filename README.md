@@ -21,3 +21,17 @@
 **SBOM-importans:** Ger full transparens i supply chain med CycloneDX-JSON. Listar alla komponenter (OS + Python deps) för snabb CVE-hantering. Krävs av EU Cyber Resilience Act för compliance och automatiserad riskhantering i CI/CD.
 
 **Gatekeeper förändrar K8s:** Policy-as-code istället för manuell granskning. "require-team-label" nekar "Bad Pod" automatiskt via admission webhook. Tvingar säkra vanor, förenklar audit/compliance, flyttar säkerhet "left" i DevOps. Gör DevSecOps praktiskt!
+
+## screenshots
+
+## Bad Pod
+![Scan Before](screenshots/gatekeeper-deny.png.png)
+
+## Hardened Pod
+![Scan Before](screenshots/gatekeeper-pass.png.png)
+
+## Scan Before
+![Scan Before](screenshots/trivy-before.png.png)
+
+## Scan After 
+![Scan Before](screenshots/trivy-after.png.png)
