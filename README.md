@@ -12,3 +12,11 @@
 - **Docker**: Container builds
 - **Gatekeeper/OPA**: Kubernetes policy enforcement
 
+
+## 🧠 Reflektion (5-10 meningar)
+
+**Container-säkerhet:** Lärde mig att minimera attackytan är kritiskt. Non-root user hindrar privilege escalation, slim-baser (python:3.12-slim) har färre sårbarheter än fulla images, och att patcha Flask 1.0.0→3.0.0 eliminerar kritiska CVEs. Trivy kvantifierar risker konkret - 1492→116 CVEs är dramatisk förbättring!
+
+**SBOM-importans:** Ger full transparens i supply chain med CycloneDX-JSON. Listar alla komponenter (OS + Python deps) för snabb CVE-hantering. Krävs av EU Cyber Resilience Act för compliance och automatiserad riskhantering i CI/CD.
+
+**Gatekeeper förändrar K8s:** Policy-as-code istället för manuell granskning. "require-team-label" nekar "Bad Pod" automatiskt via admission webhook. Tvingar säkra vanor, förenklar audit/compliance, flyttar säkerhet "left" i DevOps. Gör DevSecOps praktiskt!
