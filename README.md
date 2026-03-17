@@ -12,4 +12,3 @@
 - **Docker**: Container builds
 - **Gatekeeper/OPA**: Kubernetes policy enforcement
 
-## Screenshots
