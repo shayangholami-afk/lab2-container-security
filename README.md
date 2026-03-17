@@ -9,7 +9,7 @@
 
 ## Verktyg
 - **Trivy**: Vuln-scanning
-- **Docker**: Container builds  
+- **Docker**: Container builds
 - **Gatekeeper/OPA**: Kubernetes policy enforcement
 
-
+## Screenshots
